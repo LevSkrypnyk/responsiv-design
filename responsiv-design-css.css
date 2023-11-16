@@ -1,0 +1,269 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu-h{
+    display: none;
+
+}
+@media (max-width: 1440px){
+    .menu-group:not(.show) {
+        display: none;
+    }
+    menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .lang{
+       
+    }
+    .menu-h{
+        display: flex;
+        justify-content: flex-start;
+        /* justify-content: space-between; */
+        padding-right: 10%;
+        padding-left: 10%;
+        color: #000;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333; /* Темно-серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        border: none;
+        border-radius: 36px; /* Радиус закругления углов */
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .lang{
+        
+      display: flex;
+flex-direction: row;
+        color: #000;
+        font-family: 'Bricolage Grotesque', sans-serif;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333; /* Темно-серый цвет фона */
+        color: #fff; /* Белый цвет текста */
+        border: none;
+        border-radius: 36px; /* Радиус закругления углов */
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+}
+.menu{
+
+    width: 100%; 
+     justify-content: flex-start; 
+     align-items: flex-start; 
+     gap: 5%; 
+     display: inline-flex; 
+     
+     height: 6vh; 
+     padding-top: 23px;
+     padding-left: 2%;
+     padding-right: 2%;
+     background: #ffffff;     
+   
+    
+}
+.Logo {
+
+ display:flex;
+  gap: 10px;
+}
+.menu-text {
+  
+    /* color: black; */
+    /* opacity: 0.35; */
+    color: rgb(1, 1, 1, 0.35);
+font-size: 16px;
+font-weight: 300;
+line-height: 1.2em;
+
+}
+.menu-group {
+    text-transform: uppercase;
+    display: flex;
+        justify-content:space-between;
+        width: 75%;  
+                position: relative;
+                padding-right: 20%;
+                padding-left: 19px;
+}
+.text-menu {
+      padding-right: 20px;
+        gap:10px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+ 
+}
+.text-menu:visited {
+    padding-right: 20px;
+      gap:10px;  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000;
+      
+
+}
+.text-menu:nth-child(){
+    padding-left: 30px;
+}
+.arrow {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+.menu-lang {
+        padding-right: 20px;
+        
+        gap:10px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+a{
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.section{
+
+}
+.wrapper{
+
+width: 100%;
+
+
+}
+/* if i need to something to disappear i use display  none */
+.img-ked {
+ /* display: none; */
+ padding-left: 10%;
+ padding-right: 10%;
+ padding-top: 30px;
+}
+
+.img-text{
+ width: 100%;
+}
+.img-text h2{
+    padding: 30px 10% 20px;
+   }
+   .img-text p{
+    padding: 0px 10% 20px;
+   }
+h2{
+   color: #000;
+   font-family: 'Sintony';
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 140%;      
+   
+   
+}
+p {
+   color: #000;
+   font-family: 'Sintony';
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%;
+}
+.kedy{
+    width: 100%;
+}
+
+  @media screen and (min-width: 1440px){
+    .wrapper{
+     
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .img-text{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        text-align: right;
+       
+    }
+    .img-ked{
+        padding: 30px 2% 30px;
+    }
+    p{
+        font-size: 44px;
+        
+    }
+    h2{
+        font-size: 54px;
+    }
+  }
+
+/* @media screen and (max-width: 1300px){
+    .kedy img {
+        /* padding-top: 122px;
+        padding-bottom: 122px; */
+        /* display: block;
+        max-width: 100%; */
+        /* flex-basis: 48%;
+       
+        height: 100%; */
+        /* object-fit: cover; */
+        /* flex-shrink: 1;
+        flex-grow: 0; */
+        /* width: 100%;
+        height: auto; 
+    }     
+    
+}
+/*  1024px, 768px, 460px*/
+/* @media screen and (max-width: 768px){
+    p, h2 {
+        font-size: 18px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .box4{
+        /* display: flex;
+        justify-content: space-evenly;
+        align-items: center; 
+        width: 100%;
+        gap: 100px; */
+        /* padding-left: 36px;
+        padding-right: 36px; */
+      /* flex-direction: column;
+          gap: 40px;
+        }
+} */
